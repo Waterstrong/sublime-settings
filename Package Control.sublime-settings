@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Boxy Theme",
+		"DashDoc",
+		"Git",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Markdown Slideshow",
+		"Markmon real-time markdown preview",
+		"Material Theme",
+		"Monokai Extended",
+		"Package Control",
+		"VCS Gutter"
+	]
+}

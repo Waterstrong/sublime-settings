@@ -1,0 +1,8 @@
+[
+	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+	{ "keys": ["super+t"], "command": "new_file" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	{ "keys": ["f7"], "command": "vcs_gutter_next_change" },
+    { "keys": ["shift+f7"], "command": "vcs_gutter_prev_change" }
+]
