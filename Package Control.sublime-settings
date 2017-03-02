@@ -5,9 +5,17 @@
 	],
 	"installed_packages":
 	[
+		"Ansible",
 		"Boxy Theme",
 		"DashDoc",
 		"Git",
+		"HTML Snippets",
+		"HTMLBeautify",
+		"JavaScript & NodeJS Snippets",
+		"Javascript Beautify",
+		"JavaScript Completions",
+		"JavaScriptNext - ES6 Syntax",
+		"Keymaps",
 		"Markdown Extended",
 		"Markdown Preview",
 		"Markdown Slideshow",
