@@ -1,11 +1,11 @@
 [
 	{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
-	{ "keys": ["super+t"], "command": "new_file" },
-	{ "keys": ["ctrl+tab"], "command": "next_view" },
-	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	{ "keys": ["super+shift+up"], "command": "swap_line_up" },
+  	{ "keys": ["super+shift+down"], "command": "swap_line_down" },
+  	{ "keys": ["super+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["super+1"], "command": "toggle_side_bar" },
 	{ "keys": ["f7"], "command": "vcs_gutter_next_change" },
     { "keys": ["shift+f7"], "command": "vcs_gutter_prev_change" },
-    { "keys": ["super+shift+d"], "command": "dash_doc" },
     { "keys": ["super+alt+l"], "command": "html_beautify", "context": [{ "key": "selector", "operator": "equal", "operand": "text.html,text.html.twig,text.twig,source.html,source.html.twig,source.twig"}]},
     { "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
 	{ "keys": ["super+alt+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} }
