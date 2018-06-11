@@ -8,5 +8,8 @@
     { "keys": ["shift+f7"], "command": "vcs_gutter_prev_change" },
     { "keys": ["super+alt+l"], "command": "html_beautify", "context": [{ "key": "selector", "operator": "equal", "operand": "text.html,text.html.twig,text.twig,source.html,source.html.twig,source.twig"}]},
     { "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
-	{ "keys": ["super+alt+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} }
+	{ "keys": ["super+alt+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+	{ "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} }
+
 ]
